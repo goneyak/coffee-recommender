@@ -23,10 +23,6 @@ This project builds a **coffee similarity and recommendation system** using the 
    - **Flavor-only**: cosine similarity on 5D cupping scores.  
    - **Enriched**: add rating, roast level, Agtron, and continent-level origin.  
 
-   \[
-   \vec{g}_i = \lambda_f \cdot z(\vec{f}_i) \;\oplus\; \lambda_m \cdot z(\vec{m}_i) \;\oplus\; \lambda_r \cdot z(\vec{r}_i)
-   \]
-
 3. **Recommendation system**  
    - Input: a coffee name.  
    - Output: Top-3 similar coffees (Flavor-only vs Enriched).
