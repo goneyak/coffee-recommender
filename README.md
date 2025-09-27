@@ -63,20 +63,14 @@ Visual comparison of flavor vectors (aroma, acidity, body, flavor, aftertaste).
 ```bash
 pip install -r requirements.txt
 ```
-🛠️ Main Dependencies
 
+## 🛠️ Main Dependencies
 pandas, numpy
-
 scikit-learn
-
 matplotlib, seaborn
-
 networkx
 
-📌 Future Work
-
+## 📌 Future Work
 Incorporate price into similarity weighting
-
 Interactive dashboard (Streamlit)
-
 Deploy as API for coffee recommendations
