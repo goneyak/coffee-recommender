@@ -11,6 +11,18 @@ This project builds a **coffee similarity and recommendation system** using the 
 - Build a simple **recommendation system**.  
 - Visualize results with **radar charts, PCA/t-SNE maps, and network analysis**.
 
+coffee-recommender/
+│── README.md
+│── requirements.txt
+│── coffee.py              # Core functions (data prep, similarity, recommend)
+│── coffee.ipynb           # Notebook (EDA + visualization + demo)
+│── data/
+│    └── coffee_reviews_parsed.csv   # Kaggle dataset (ignored in git, add .gitignore)
+│── outputs/
+│    ├── radar_example.png
+│    ├── pca_flavor_vs_enriched.png
+│    └── network_graph.png
+
 ---
 
 ## 📂 Workflow
